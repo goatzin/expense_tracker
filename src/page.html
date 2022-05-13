@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+        <meta charset="UTF-8">
+        <title>O_o</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Expense Tracker O_o</h1>
+            <h2>Add new item:</h2>
+            <form class="new-item" id="new-item">
+                <div>
+                    <label>Type: <input list="type-list" class="data-input"></label>
+                    <datalist id="type-list">
+                        <option value="Cash">
+                        <option value="Debit Card">
+                        <option value="Credit Card">
+                        <option value="Check">
+                    </datalist>
+                    <label>Name: <input type="text" class="data-input"></label>
+                </div>
+                <div>
+                    <label>Date: <input type="date" min="2022-01-01" class="data-input"></label>
+                    <label>Amount: <input type="number" class="data-input"></label>
+                </div>
+                <input class="add" type="button" value="Add">
+            </form>
+            <span class="error-text" id="error-text"><span>
+            <table id="tab-items"></table>
+        </div> 
+        <script type="text/javascript" src="theconfig.js"></script>
+    </body>
+</html>

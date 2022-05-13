@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    display: inline-block;
+    float: initial;
+}
+
+.add {
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    width: 250px; 
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: #000;
+}
+
+table {
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+}
+
+td {
+    color: #696969;
+}
+
+h2 {
+    color: #334df5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.error-text {
+    color: #ff1100;
+}
+
